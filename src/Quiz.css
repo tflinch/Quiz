@@ -1,0 +1,18 @@
+.quiz-container{
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr)
+    
+}
+
+.answer-button{
+    margin: 5px;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.answer-button:hover {
+    border-color: #646cff;
+    cursor: pointer;
+  }
